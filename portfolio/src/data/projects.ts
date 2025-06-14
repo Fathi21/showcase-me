@@ -1,11 +1,14 @@
 export const projects = [
   {
-    title: "react-portfolio",
-    description: "Personal portfolio site built using React + TypeScript + MUI.",
-    stars: 25,
-    forks: 4,
-    language: "TypeScript",
-    github: "https://github.com/yourusername/react-portfolio",
+    title: 'Portfolio Website',
+    description: 'A personal developer portfolio built with React, TypeScript, and MUI.',
+    tags: ['react', 'typescript', 'mui'],
+    repo: 'https://github.com/yourusername/portfolio',
   },
-  // more projects...
+  {
+    title: 'Task Manager API',
+    description: 'Backend API for a to-do list app using Node.js and Express.',
+    tags: ['node', 'express', 'api'],
+    repo: 'https://github.com/yourusername/task-api',
+  },
 ];
