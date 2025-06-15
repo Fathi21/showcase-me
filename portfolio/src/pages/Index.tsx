@@ -17,17 +17,48 @@ const experiences = [
 
 const projects = [
   {
-    title: 'Portfolio Website',
+    title: 'Music-player-UI',
     description: 'A personal developer portfolio built with React, TypeScript, and Tailwind.',
     tags: ['react', 'typescript', 'tailwind'],
-    repo: 'https://github.com/yourusername/portfolio',
+    repo: 'https://github.com/Fathi21/Music-player-UI',
   },
   {
-    title: 'Task Manager API',
+    title: 'Music-player-API',
     description: 'Backend API for a to-do list app using Node.js and Express.',
     tags: ['node', 'express', 'api'],
     repo: 'https://github.com/yourusername/task-api',
   },
+    {
+    title: 'Noglo-API',
+    description: 'Backend API for a to-do list app using Node.js and Express.',
+    tags: ['node', 'express', 'api'],
+    repo: 'https://github.com/yourusername/task-api',
+  },
+    {
+    title: 'Noglo-UI',
+    description: 'Backend API for a to-do list app using Node.js and Express.',
+    tags: ['node', 'express', 'api'],
+    repo: 'https://github.com/yourusername/task-api',
+  },
+  {
+    title: 'IQFaceoff-UI',
+    description: 'A personal developer portfolio built with React, TypeScript, and Tailwind.',
+    tags: ['react', 'typescript', 'tailwind'],
+    repo: 'https://github.com/yourusername/task-api',
+  },
+  {
+    title: 'IQFaceoff-API',
+    description: 'A personal developer portfolio built with React, TypeScript, and Tailwind.',
+    tags: ['react', 'typescript', 'tailwind'],
+    repo: 'https://github.com/yourusername/task-api',
+  },
+  {
+    title: 'CatVsDogs-AI-classifier',
+    description: 'Backend API for a to-do list app using Node.js and Express.',
+    tags: ['node', 'express', 'api'],
+    repo: 'https://github.com/yourusername/task-api',
+  },
+  
 ];
 
 const articles = [

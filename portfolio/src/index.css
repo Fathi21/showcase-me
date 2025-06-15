@@ -82,3 +82,244 @@ body { overflow-x: hidden; }
 .link-iterm2:hover {
   color: hsl(268, 59%, 67%);
 }
+
+.article-card {
+  margin-bottom: 0.5rem;
+  background: hsl(225, 16%, 14%) !important;
+  color: hsl(220, 14%, 87%);
+  box-shadow: none;
+  border-radius: 0.7rem;
+  border: 1px solid hsl(225, 18%, 18%);
+}
+
+.article-card-content {
+  padding: 0.5rem;
+}
+
+.article-card-title {
+  font-weight: 600;
+  color: hsl(199, 97%, 61%);
+}
+
+.article-card-summary {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: hsl(220, 14%, 77%);
+}
+
+.article-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.article-card-chip {
+  background-color: hsl(199, 97%, 61%) !important;
+  color: hsl(225, 16%, 14%) !important;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 0 10px;
+  font-size: 12px !important;
+}
+
+.experience-card {
+  margin-bottom: 0.5rem;
+  background: hsl(225, 16%, 14%) !important;
+  color: hsl(220, 14%, 87%);
+  box-shadow: none;
+  border-radius: 0.7rem;
+  border: 1px solid hsl(225, 18%, 18%);
+}
+
+.experience-card-content {
+  padding: 0.5rem;
+}
+
+.experience-position {
+  font-weight: 600;
+  color: hsl(199, 97%, 61%);
+}
+
+.experience-company {
+  font-size: 12px;
+  color: hsl(137, 85%, 75%);
+}
+
+.experience-duration {
+  font-size: 12px;
+  color: hsl(268, 59%, 67%);
+  margin-bottom: 4px;
+}
+
+.experience-description {
+  font-size: 13px;
+  color: hsl(220, 10%, 85%);
+  margin-top: 8px;
+}
+
+.project-card {
+  margin-bottom: 0.5rem;
+  background: hsl(225, 16%, 14%) !important;;
+  color: hsl(220, 14%, 87%);
+  box-shadow: none;
+  border-radius: 0.7rem;
+  border: 1px solid hsl(225, 18%, 18%);
+}
+
+.project-card-content {
+  padding: 0.5rem;
+}
+
+.project-title {
+  font-weight: 600;
+  color: hsl(199, 97%, 61%);
+}
+
+.project-description {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: hsl(220, 14%, 77%);
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.project-chip {
+  background-color: hsl(199, 97%, 61%) !important;
+  color: hsl(225, 16%, 14%) !important;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 0 10px;
+  font-size: 12px !important;
+}
+
+.project-link {
+  color: hsl(199, 97%, 61%);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 13px;
+}
+
+.sidebar {
+  background: hsl(225, 16%, 13%);
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  border: 1px solid hsl(225, 18%, 18%);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: hsl(199, 97%, 61%);
+  letter-spacing: -0.5px;
+}
+
+.title {
+  font-size: 12px;
+  color: hsl(220, 14%, 70%);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.resume-link {
+  text-decoration: none;
+}
+
+.resume-chip {
+  background-color: hsl(199, 97%, 61%) !important;
+  color: hsl(225, 16%, 14%) !important;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 13px !important;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.details {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  font-weight: 500;
+  color: hsl(199, 97%, 61%);
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: hsl(220, 14%, 87%);
+  margin-top: 2px;
+}
+
+.social-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.social-text {
+  color: hsl(225, 100%, 94%);
+}
+
+.section-heading {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: hsl(199, 97%, 61%);
+}
+
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tech-chip {
+  background-color: hsl(199, 97%, 61%) !important;
+  color: hsl(225, 16%, 14%) !important;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 13px !important;
+  padding: 0 8px;
+  margin-bottom: 4px;
+}
+
+.info-box {
+  background: hsl(225, 16%, 15%);
+  border-radius: 0.6rem;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: hsl(220, 14%, 87%);
+  border: 1px solid hsl(225, 18%, 18%);
+}
+
+.spaced {
+  margin-top: 8px;
+}
