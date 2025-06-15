@@ -61,14 +61,14 @@ const Sidebar = () => (
       <h4 className="section-heading">Experience</h4>
       <div className="info-box">
         <div>
-          <b>Sep 2021 - Present</b> <br />
-          Frontend Developer <br />
-          Tech Solutions Ltd.
+          <b>> Sep 2021 - Present</b> <br />
+          > Frontend Developer <br />
+          > Tech Solutions Ltd.
         </div>
         <div className="spaced">
-          <b>Jun 2021 - Dec 2021</b> <br />
-          Software Intern <br />
-          DevWorks Inc.
+          <b>> Jun 2021 - Dec 2021</b> <br />
+          > Software Intern <br />
+          > DevWorks Inc.
         </div>
       </div>
     </div>
@@ -77,15 +77,15 @@ const Sidebar = () => (
     <div>
       <h4 className="section-heading">Certification</h4>
       <div className="info-box">
-        <div>Mar 2022 <br /> Lorem ipsum</div>
+        <div>> Mar 2022 <br /> > Lorem ipsum</div>
       </div>
     </div>
 
     {/* Education */}
     <div>
-      <h4 className="section-heading">Education</h4>
+      <h4 className="section-heading">> Education</h4>
       <div className="info-box">
-        <div>2015 - 2019<br />B.S. in Computer Science, Example University</div>
+        <div>> 2015 - 2019<br /> > B.S. in Computer Science, Example University</div>
       </div>
     </div>
   </aside>

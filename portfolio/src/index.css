@@ -311,8 +311,13 @@ body { overflow-x: hidden; }
   margin-bottom: 4px;
 }
 
+b, strong {
+    font-weight: bolder;
+    color: #ff528d;
+}
+
 .info-box {
-  background: hsl(225, 16%, 15%);
+  background: hsl(339.61deg 8.12% 11.06%);
   border-radius: 0.6rem;
   padding: 8px 10px;
   font-size: 12px;
