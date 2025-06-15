@@ -44,10 +44,10 @@ const articles = [
 ];
 
 // --- COMPONENTS ---
-import Sidebar from "@/componentsSidebar";
-import ExperienceCard from "@/componentsExperienceCard";
-import ProjectCard from "@/componentsProjectCard";
-import ArticleCard from "@/componentsArticleCard";
+import Sidebar from "@/components/portfolio/Sidebar";
+import ExperienceCard from "@/components/portfolio/ExperienceCard";
+import ProjectCard from "@/components/portfolio/ProjectCard";
+import ArticleCard from "@/components/portfolio/ArticleCard";
 
 const Index = () => {
   return (
